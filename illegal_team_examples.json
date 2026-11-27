@@ -1,0 +1,16 @@
+[
+  {
+    "team_name": "Lahore Stars",
+    "owner": "Aiza",
+    "player_ids": [],
+    "captain_id": "P001",
+    "vice_captain_id": "P002"
+  },
+  {
+    "team_name": "Royal Strikers",
+    "owner": "Aiza",
+    "player_ids": ["P999"],
+    "captain_id": "P999",
+    "vice_captain_id": "P999"
+  }
+]
