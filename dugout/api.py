@@ -120,3 +120,9 @@ def register_team(team_in: TeamIn):
     save_teams_json(TEAMS_JSON, list(teams.values()))
 
     return team_details(team_id, team)
+@app.get("/player-count")
+def player_count():
+    return {"total_players": len(players)}
+
+
+
